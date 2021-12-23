@@ -8,4 +8,4 @@ def find(espace0, item, args):
                 for z in find(x, item, args):
                     args = list(z)
                     args.append(espace0.index(x))
-                    yield args[::-1]
+                    yield args
