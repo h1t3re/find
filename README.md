@@ -1,2 +1,2 @@
 # find
-Find item in graph
+Find item in orthogonal graph
