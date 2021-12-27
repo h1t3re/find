@@ -1,2 +1,2 @@
 # find
-Find item in graph
+Find inverted coordinate of item in orthogonal graph.

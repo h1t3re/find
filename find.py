@@ -11,6 +11,7 @@ def find(espace, item, coordonnee):
                     x.append(espace.index(dimension))
                     yield x
                     coordonnee = []
+
 print("espace = ", end="")
 print(espace, end="\n")
 for i in range(1, 6):
