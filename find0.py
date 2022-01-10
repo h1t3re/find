@@ -15,8 +15,8 @@ def find(dimension=[], espace=[], item=0, coordonnee=[]):
                 if espace != dimension:
                     coordonnee.append(espace.index(dimension))
                 yield coordonnee
-                coordonnee = []
 
+print(espace)
 for i in range(1, 6):
     for x in find(espace, espace, i, []):
-        print(x[::-1], end="\n")
+        print(x, end="\n")
