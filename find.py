@@ -6,6 +6,7 @@ def find(espace, item, coordonnee):
             if dimension == i:
                 coordonnee.append(espace.index(dimension))
                 yield coordonnee
+                coordonnee = []
         else:
             if isinstance(dimension, list):
                 for x in find(dimension, item, coordonnee):
